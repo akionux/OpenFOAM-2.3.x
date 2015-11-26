@@ -1,0 +1,3 @@
+diffusionFoam.C
+
+EXE = diffusionFoam

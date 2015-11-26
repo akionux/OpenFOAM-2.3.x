@@ -1,0 +1,23 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      stirringProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+r0				r0 [ 0 1 0 0 0 0 0 ] 0.002;
+omega			omega [ 0 0 -1 0 0 0 0 ] 2; // number of revolutions/rps
+xr1				xr1 [ 0 1 0 0 0 0 0 ] (0.016 0.004 0.0085);
+
+
+// ************************************************************************* //
